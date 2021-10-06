@@ -1,6 +1,6 @@
 variable "project_name" {
   description = "The name of the project to instanciate the instance at."
-  default     = "auto-x-244507"
+  default     = ""
 }
 
 variable "region_name" {
