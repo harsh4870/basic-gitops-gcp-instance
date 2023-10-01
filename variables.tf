@@ -1,15 +1,15 @@
 variable "project_name" {
-  description = "The name of the project to instanciate the instance at."
+  description = "The name of the project to instantiate the instance at."
   default     = ""
 }
 
 variable "region_name" {
-  description = "The region that this terraform configuration will instanciate at."
+  description = "The region that this terraform configuration will instantiate at."
   default     = "us-central1"
 }
 
 variable "zone_name" {
-  description = "The zone that this terraform configuration will instanciate at."
+  description = "The zone that this terraform configuration will instantiate at."
   default     = "us-central1-a"
 }
 
